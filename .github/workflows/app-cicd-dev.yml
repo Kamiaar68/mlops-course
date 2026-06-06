@@ -31,7 +31,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install --upgrade pathspec==1.1.1
+          pip install pathspec==0.12.1
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
